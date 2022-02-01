@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#header {
+  padding: 1rem;
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  align-items: center;
+  width: 50rem;
+  margin: 3rem;
+  padding: 1rem;
+}
+
+section h2 {
+  margin: 0 auto;
+  padding: 2rem 0;
+}
